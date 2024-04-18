@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+/* Hero section */
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(mesh-gradient.png);
+    /* background-image: url(mesh-gradient.png); */
+    background-position: center;
+    background-size: cover;
+    padding: 2rem 5%;
+}
+
+.logo {
+    font-size: 1.75rem;
+    color: #f8f9fa;
+    cursor: pointer;
+}
+/* Nav Start */
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 1.25rem;
+}
+
+nav ul li a {
+    color: #f8f9fa;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all ease-in-out 0.25s;
+}
+
+a:hover {
+    color: black;
+
+}
+
+nav button {
+    font-weight: 500;
+    padding: 1.2rem 2rem;
+    outline: none;
+    border: none;
+    color: #f8f9fa;
+    background: black;
+    border-radius: 0.50rem;
+    transition: all ease-in-out 0.25s;
+}
+
+nav button:hover {
+    color: #e85d04;
+}
+
+nav button i {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* Nav End */
+
+/* Main start */
+
+.main_content {
+    position: absolute;
+    margin-top: 5%;
+    display: inline-block;
+}
+
+.main_content h1 {
+    color: #f8f9fa;
+    font-size: 6em;
+    margin-bottom: 1.5rem;
+}
+
+.main_content p {
+    line-height: 1.6rem;
+    font-size: 1.20rem;
+    color: #f8f9fa;
+    width: 60vw;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 23vw;
+    margin-top: 1.8rem;
+}
+
+.cta a {
+    display: block;
+    font-weight: 500;
+    padding: 1rem 2.9rem;
+    color: #f8f9fa;
+    border-radius: 0.50rem;
+    transition: all ease-in-out 0.25s;
+}
+
+.btn_1 {
+    border: 1.5px solid #f8f9fa;
+
+}
+
+.btn_1:hover {
+    background: #f8f9fa;
+    color: black;
+}
+
+.btn_2 {
+    background: #e85d04;
+}
+
+.btn_2:hover {
+    background: #faa307;
+
+}
+
+.logo_svg {
+    position: relative;
+    top: 100px;
+    left: 290px;
+    width: 130px;
+}
+/* Main End */
